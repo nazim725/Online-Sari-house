@@ -9,7 +9,8 @@ import sport from '../../images/sport.png'
 import decor from '../../images/lamp-decor.png'
 import acs from '../../images/bags.png'
 import Menu from './Menu/Menu'
-
+import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
 const Banner = memo(() => {
   return (
     <Container>
@@ -46,92 +47,100 @@ const Banner = memo(() => {
         <Col sm={12} md={9}>
           <Menu></Menu>
           <Container>
-            <Carousel fade>
-              <Carousel.Item className=''>
+            <Carousel fade variant="dark">
+              <Carousel.Item className="" interval={7000}>
                 <Row>
                   <Col className="col-6">
-                    <h2 className="my-4 fw-bold text-secondary fs-1">
-                      Trendy Collection
-                    </h2>
-                    <p className="my-4 fs-5">Browser for latest collection</p>
-                    <div className="d-flex my-3">
-                      Colors:
-                      <div
-                        style={{
-                          width: '30px',
-                          height: '30px',
-                          background: '#2ECC71',
-                        }}
-                        className="rounded-circle ms-3"
-                      ></div>
-                      <div
-                        style={{
-                          width: '30px',
-                          height: '30px',
-                          background: '#DC7633',
-                        }}
-                        className="rounded-circle ms-3"
-                      ></div>
-                    </div>
-                    <h4 className="d-flex fw-bold fs-2 my-4">
-                      &#2547; <span className="ms-2">80000</span>
-                    </h4>
-                    <button className="btn btn-primary rounded-pill my-3">
-                      Click Here
-                    </button>
+                    <Slide bottom>
+                      <h2 className="my-4 fw-bold text-secondary fs-1">
+                        Trendy Collection
+                      </h2>
+                      <p className="my-4 fs-5">Browser for latest collection</p>
+                      <div className="d-flex my-3">
+                        Colors:
+                        <div
+                          style={{
+                            width: '30px',
+                            height: '30px',
+                            background: '#2ECC71',
+                          }}
+                          className="rounded-circle ms-3"
+                        ></div>
+                        <div
+                          style={{
+                            width: '30px',
+                            height: '30px',
+                            background: '#DC7633',
+                          }}
+                          className="rounded-circle ms-3"
+                        ></div>
+                      </div>
+                      <h4 className="d-flex fw-bold fs-2 my-4">
+                        &#2547; <span className="ms-2">80000</span>
+                      </h4>
+                      <button className="btn btn-primary rounded-pill my-3">
+                        Click Here
+                      </button>
+                    </Slide>
                   </Col>
                   <Col className="col-6">
-                    <img
-                      src="https://oshary.com/wp-content/uploads/2022/04/Screenshot_19-removebg-preview.png"
-                      alt=""
-                      height={350}
-                      width={330}
-                      className="ms-5"
-                    />
+                    <Fade right>
+                      <img
+                        src="https://oshary.com/wp-content/uploads/2022/04/Screenshot_19-removebg-preview.png"
+                        alt=""
+                        height={350}
+                        width={330}
+                        className="ms-5"
+                      />
+                    </Fade>
                   </Col>
                 </Row>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item interval={7000}>
                 <Row>
                   <Col className="col-6">
-                    <h2 className="my-4 fw-bold text-secondary fs-1">
-                      Natural Trendy Collection
-                    </h2>
-                    <p className="my-4 fs-5">Visit Shop for more Quality</p>
-                    <div className="d-flex my-3">
-                      Colors:
-                      <div
-                        style={{
-                          width: '30px',
-                          height: '30px',
-                          background: '#117A65',
-                        }}
-                        className="rounded-circle ms-3"
-                      ></div>
-                      <div
-                        style={{
-                          width: '30px',
-                          height: '30px',
-                          background: '#6C3483',
-                        }}
-                        className="rounded-circle ms-3"
-                      ></div>
-                    </div>
-                    <h4 className="d-flex fw-bold fs-2 my-4">
-                      &#2547; <span className="ms-2">80000</span>
-                    </h4>
-                    <button className="btn btn-primary rounded-pill my-3">
-                      Click Here
-                    </button>
+                    <Slide bottom>
+                      <h2 className="my-4 fw-bold text-secondary fs-1">
+                        Natural Trendy Collection
+                      </h2>
+                      <p className="my-4 fs-5">Visit Shop for more Quality</p>
+                      <div className="d-flex my-3">
+                        Colors:
+                        <div
+                          style={{
+                            width: '30px',
+                            height: '30px',
+                            background: '#117A65',
+                          }}
+                          className="rounded-circle ms-3"
+                        ></div>
+                        <div
+                          style={{
+                            width: '30px',
+                            height: '30px',
+                            background: '#6C3483',
+                          }}
+                          className="rounded-circle ms-3"
+                        ></div>
+                      </div>
+                      <h4 className="d-flex fw-bold fs-2 my-4">
+                        &#2547; <span className="ms-2">80000</span>
+                      </h4>
+                      <button className="btn btn-primary rounded-pill my-3">
+                        Click Here
+                      </button>
+                    </Slide>
                   </Col>
                   <Col className="col-6">
-                    <img
-                      src="https://oshary.com/wp-content/uploads/2022/04/023.png"
-                      alt=""
-                      height={350}
-                      width={330}
-                      className="ms-5"
-                    />
+                    <Fade right>
+                      <img
+                        src="https://oshary.com/wp-content/uploads/2022/04/023.png"
+                        alt=""
+                        height={350}
+                        width={330}
+                        className="ms-5"
+                      />
+                    </Fade>
                   </Col>
                 </Row>
               </Carousel.Item>
