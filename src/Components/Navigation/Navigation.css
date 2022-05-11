@@ -1,0 +1,20 @@
+.navigation {
+  background-color: #a0b1ab;
+  height: 40px;
+}
+.social-icon i {
+  margin-left: 10px;
+}
+.nav-item {
+  border-left: 1px solid rgba(240, 228, 228, 0.856);
+}
+.last-item {
+  border-right: 1px solid rgba(240, 228, 228, 0.856);
+}
+.title {
+  color: rgb(238, 233, 227) !important;
+}
+#nav-dropdown {
+  color: white;
+}
+
