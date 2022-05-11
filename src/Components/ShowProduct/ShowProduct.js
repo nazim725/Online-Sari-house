@@ -28,6 +28,48 @@ const ShowProduct = memo(() => {
             </Col>
           </Row>
         </Carousel.Item>
+        <Carousel.Item>
+          <Row>
+            <Col md={6} sm={12}>
+              <img
+                src="https://www.oshary.com/wp-content/uploads/2021/08/Men-White.png"
+                alt=""
+                className='ms-5 mt-2'
+              />
+            </Col>
+            <Col md={6} sm={12}>
+              <div className="products-details">
+                <h5 className="">PRODUCT LANDING PAGE</h5>
+                <h1 className="fw-bold lh-base">
+                 Men White $ Olive <br /> Embroidered Kurta
+                </h1>
+                <span className="fs-3">৳ 19000</span>
+                <button className="btn btn-secondary ms-4">ADD TO CART</button>
+              </div>
+            </Col>
+          </Row>
+        </Carousel.Item>
+        <Carousel.Item>
+          <Row>
+            <Col md={6} sm={12}>
+              <img
+                src="https://www.oshary.com/wp-content/uploads/2021/08/Women-Clothing1.png"
+                alt=""
+                className='ms-5 mt-2'
+              />
+            </Col>
+            <Col md={6} sm={12}>
+              <div className="products-details">
+                <h5 className="">PRODUCT LANDING PAGE</h5>
+                <h1 className="fw-bold lh-base">
+                 Women navy Blue <br /> Ethnic Motifs
+                </h1>
+                <span className="fs-3">৳ 19000</span>
+                <button className="btn btn-secondary ms-4">ADD TO CART</button>
+              </div>
+            </Col>
+          </Row>
+        </Carousel.Item>
       </Carousel>
     </div>
   )

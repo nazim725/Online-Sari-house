@@ -1,0 +1,72 @@
+.offer {
+  position: relative;
+}
+.offer-details {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+.view-button {
+  background-color: rgba(240, 230, 230, 0.089);
+  border: 0;
+  border-bottom: 2px solid rgb(124, 104, 104);
+}
+.view-button:hover {
+  border-bottom: 2px solid white;
+}
+
+.offer-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin: 10px 10px;
+}
+.details {
+  display: none;
+}
+.card:hover .details {
+  display: block;
+}
+.compare {
+  height: 40px;
+  display: none;
+}
+.card:hover .compare {
+  display: block;
+}
+
+.compare i {
+  font-size: 30px;
+  margin-left: 260px;
+}
+.card-img:hover {
+  height: 260px;
+  transition: height 0.5s linear;
+}
+.card-position {
+  background-color: darkgrey;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+}
+.card {
+  position: relative;
+  border: 0;
+}
+.card:hover {
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .offer-item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px 10px;
+  }
+}

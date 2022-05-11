@@ -1,0 +1,41 @@
+.arrival-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+.price-button {
+  display: block;
+}
+.add-button {
+  display: none;
+}
+.product-card:hover .price-button {
+  display: none;
+}
+.product-card:hover .add-button {
+  display: block;
+  transition: display 1s linear;
+}
+.side-icon {
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  margin-left: 210px;
+  background-color: white;
+  margin-right: 20px;
+  padding: 10px;
+  display: none;
+}
+.product-card:hover .side-icon {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .arrival-products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+}
