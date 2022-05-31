@@ -1,0 +1,35 @@
+.list-items {
+  display: none;
+}
+.list-heading{
+    height: 57px;
+    width: 295px;
+}
+.list-heading:hover ~ .list-items {
+  display: block;
+}
+.list-items:hover {
+  display: block;
+}
+.homeDecore-heading {
+  color: beige;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: 100px;
+  
+}
+.homeDecore-nav .link {
+  text-decoration: none;
+  margin-left: 40px;
+  color: beige;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link:hover {
+  border-bottom: 2px solid white;
+}
+.homeDecore-nav {
+  margin-left: 240px;
+  margin-top: 50px;
+}

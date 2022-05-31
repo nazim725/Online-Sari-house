@@ -11,24 +11,18 @@ const Menu = memo(() => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#" className="fw-bold">
-                HOME
+                TODAY'S DEALS
               </Nav.Link>
               <Nav.Link href="#" className="fw-bold">
-                SHOP
+                FLASH SALE
               </Nav.Link>
               <Nav.Link href="#" className="fw-bold">
-                BLOG
-              </Nav.Link>
-              <Nav.Link href="#" className="fw-bold">
-                ABOUT US
-              </Nav.Link>
-              <Nav.Link href="#" className="fw-bold">
-                CONTACT US
+                EID SALE
               </Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="#" className="fw-bold">
-                EID OFFER
+                TRACK YOUR ORDER
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

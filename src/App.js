@@ -10,22 +10,24 @@ import NewsLetter from './Components/NewsLetter/NewsLetter'
 import Offer from './Components/Offer/Offer'
 import ShowProduct from './Components/ShowProduct/ShowProduct'
 import VisitedCategories from './Components/VisitedCategories/VisitedCategories'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import HomeDecore from './Components/HomeDecore/HomeDecore'
+import Home from './Components/Home/Home'
 
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
-      <Heading></Heading>
-      <Banner></Banner>
-      <VisitedCategories></VisitedCategories>
-      <FeaturedProducts></FeaturedProducts>
-      <ShowProduct></ShowProduct>
-      <ArrivalProducts></ArrivalProducts>
-      <Offer></Offer>
-      <LatestNews></LatestNews>
-      <NewsLetter></NewsLetter>
-      <hr />
-      <Footer></Footer>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/homeDecore">
+            <HomeDecore></HomeDecore>
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </BrowserRouter>
     </div>
   )
 }

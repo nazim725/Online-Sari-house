@@ -1,0 +1,60 @@
+.min-max label {
+  font-size: 14px;
+  float: left;
+  line-height: 1.6;
+}
+.min {
+  float: left;
+}
+.max {
+  float: right;
+}
+
+.min-max {
+  width: 90%;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 25px 0px 15px 0px;
+}
+.min-max span {
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+.min-max-range {
+  padding: 30px 0px 20px 0px;
+}
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 10px;
+  max-width: 400px;
+  background-color: #7e9ca3;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  float: left;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #050a0e;
+  height: 20px;
+  width: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #050a0e;
+  height: 20px;
+  width: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
