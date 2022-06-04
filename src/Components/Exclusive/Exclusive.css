@@ -1,0 +1,12 @@
+
+.exclusive {
+  background: linear-gradient(rgb(195 153 97), rgb(247 241 234));
+}
+.exclusive {
+  background-image: linear-gradient(
+    to right,
+    rgb(195 153 97),
+    rgb(247 241 234)
+  );
+}
+

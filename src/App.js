@@ -13,6 +13,7 @@ import VisitedCategories from './Components/VisitedCategories/VisitedCategories'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import HomeDecore from './Components/HomeDecore/HomeDecore'
 import Home from './Components/Home/Home'
+import Exclusive from './Components/Exclusive/Exclusive'
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/homeDecore">
             <HomeDecore></HomeDecore>
+          </Route>
+          <Route path="/exclusive">
+            <Exclusive></Exclusive>
           </Route>
         </Switch>
         <Footer></Footer>

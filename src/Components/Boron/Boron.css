@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Inter&family=Lato:ital,wght@0,300;1,300&family=Russo+One&display=swap");
+.boron {
+  background-image: linear-gradient(to Bottom, #fdfcfc, #eae4dc);
+}
+
+.boron-info h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  color: rgb(46, 37, 37);
+  font-weight: lighter;
+}
+.boron-info p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+  color: #77779a;
+}
+
+.boron-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.boron-info button {
+  background-color: #a0b1ab;
+  width: 200px;
+  color: #fff;
+  border: 0;
+  height: 50px;
+}

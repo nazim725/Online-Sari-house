@@ -1,0 +1,9 @@
+.exclusive-nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.877);
+  font-weight: 500;
+}
+.exclusive-nav a:hover {
+  color: #a1b1a9;
+}
